@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/longest-subsequence-with-limited-sum/
-// Time Complexity: O(n^2)
+// Time Complexity: O(n*m), n: queries.length, m: nums.length
 // Space Complexity: O(n), n: queries.length
 class Solution {
     public int[] answerQueries(int[] nums, int[] queries) {
