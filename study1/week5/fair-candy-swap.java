@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/fair-candy-swap/
-// Time Complexity: O(n+m), n: aliceSizes.length, m: bobSizes.length
+// Time Complexity: O(n*m), n: aliceSizes.length, m: bobSizes.length
 // Space Complexity: O(1)
 class Solution {
     public int[] fairCandySwap(int[] aliceSizes, int[] bobSizes) {
