@@ -8,14 +8,7 @@ class Solution {
 
         while (left <= right) {
             int mid = (left + right)/2;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-            
->>>>>>> Stashed changes
-=======
-            
->>>>>>> Stashed changes
+
             if (nums[mid] == target) {
                 return mid;
             } else if (nums[mid] < target) {
