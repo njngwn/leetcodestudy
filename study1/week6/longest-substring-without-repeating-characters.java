@@ -3,10 +3,6 @@
 // Space Complexity: O(n), n: s.length()
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        if (s.length() == 0) {  // edge case
-            return 0;
-        }
-
         int begin = 0;
         int end = 0;
         int maxLength = 0;
